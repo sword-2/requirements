@@ -1,9 +1,4 @@
 
-<html><head>
-<title>Integrated Architecture Products</title>
-</head><body>
-<h2 id=8a>Integrated Architecture Products</h2>
-
 <h3>Functional Architecture</h3>
 Support apps that make it easy for the average computer operator to study. 
 
@@ -20,6 +15,3 @@ Maintain original scriptures along with other modules. All the translations for 
 <li>Software: When possible, attempt process communications that are not programming language specific. If a language change occurs, this may allow interchanging smaller piece(s) at a time instead being limited to a giant whole change.</li>
 <li>Development: Attempt to make the starter examples for development as easy as possible to learn such that any new programmers can get up to speed faster.</li>
 </ul>
-
-
-</body></html>

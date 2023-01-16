@@ -2,7 +2,7 @@ include ../make_stuff/include1
 
 Lfile=8a.html #Local Ofile
 
-src := $(shell find ./* -type f ! -name Makefile ! -name $(Lfile))
+src := $(shell find ./* -type f ! -name Makefile ! -name $(Lfile) ! -name notes)
 
 all: $(Lfile)
 
@@ -14,7 +14,6 @@ $(Lfile): $(src) Makefile
 	printf '\n<title>Integrated Architecture Products</title>' >> $@; \
 	printf '\n</head><body>' >> $@; \
 	printf '\n<h2 id=8a>Integrated Architecture Products</h2>' >>  $@; \
-	printf '\n<tr>' >> $@; \
 	for i in $(src); do \
 		printf '\n' >> $@; \
 		cat $$i >> $@; \
