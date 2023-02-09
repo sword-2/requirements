@@ -6,8 +6,37 @@
 <tr>
 <h3 id=2a>Functional architecture</h3>
 
-<p>Authoring Tools: The OSIS team is working to adapt free authoring tools that will hide most, if not all, of the markup from the casual user of OSIS. In the meantime, the best way to learn OSIS is to use a simple text editor, such as WordPad or Kedit on Windows, BBEdit on Alpha or MacOS, or vi in emacs on Linux. You can even use a word processor, though any formatting that you do in it won't matter (you would simply save the file as "text only").</p>
+<h4>Open Scriptures Information System (OSIS)</h4>
 
+<ul>
+	<li>Authoring Tools: The OSIS team is working to adapt free authoring tools that will hide most, if not all, of the markup from the casual user of OSIS. In the meantime, the best way to learn OSIS is to use a simple text editor, such as WordPad or Kedit on Windows, BBEdit on Alpha or MacOS, or vi in emacs on Linux. You can even use a word processor, though any formatting that you do in it won't matter (you would simply save the file as "text only").</li>
+	<li>If possible, allow the crosswire OSIS import and export tools mentioned at the <a href="https://crosswire.org/osis/">link</a> to run either standalone from the SWORD engine or with the engine.</li>
+	<li>Communicate if it should be possible to read a bible data in 2 ways equally - OSIS and text. Is merging a chapter of the bible from separate text files like 1) scripture text (no tags) and 2) cross-references (also no tags) the same a an OSIS files with scripture and cross-references?</li>
+<li>-</li>
+</ul>
+
+
+<h4>Human digital interfaces</h4>
+<ul>
+	<li>Support other languages. The method is not specified whether it is through more modules or a text translator (i.e. Hebrew - > English, etc).</li>
+	<li>Provide modules / library as option for more study aids.</li>
+	<li>Allow font to increase for those with limited eyesight.</li>
+	<li>Allow automated computer speech reading of text.</li>
+</ul>
+
+<p>Internet services:
+<ul>
+	<li>Support internet publishers by offering them a way to pull a scripture raw text scripture from an internet SWORD server. This is something like a <javascript src=></script>. This way the publisher doesn't have to hardcode scriptures with internal javascript or hardcode verses.</li>
+	<li>-</li>
+	<li>-</li>
+</ul>
+
+
+
+<!--
+Notes: when filled in.
+
+-->
 
 
 <h3 id=2b>Physical architecture</h3>
@@ -19,7 +48,17 @@ t.b.d.
 
 
 <h3 id=2d>Enterprise architecture</h3>
-t.b.d.
+
+
+
+
+<!--
+<p>Does this priority work for most languages? - 1) operator interface, 2) library interface for developers, the 3) SWORD engine source code. Priority 2 attempts to simplify things for develprs. At least on Linux and C++, a package manager might install a library and then the compiler link to in so the developer can proceed. This is as opposed to developer building the source themselves and possibly modififying it.</p>
+
+Does it make sense for one set of scriptures on the net or on a device be able to compare to another to verify consistency? It isn't the only way to verify file integrity, but works when one has a file and no other way to check all the content.
+-->
+
+
 
 
 </body></html>
